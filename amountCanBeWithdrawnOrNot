@@ -1,0 +1,3 @@
+bal=int(input("Enter the balance:"))
+amt=int(input("Ente withdraw amount:"))
+print("Cant be Withdrawn") if (bal>amt and amt%100) else print("Withdrawn")
