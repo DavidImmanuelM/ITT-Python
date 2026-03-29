@@ -1,0 +1,6 @@
+row=int(input("Enter the number of rows: "))
+for i in range(row):
+   for j in range(row):
+        sumcol=sum(row[i])
+   sumarr=[].append(sumcol)
+print(max(sumarr))
