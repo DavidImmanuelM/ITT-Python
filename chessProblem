@@ -1,0 +1,10 @@
+A, B, C, D = [int(x) for x in input("Enter A B C D: ").split()]
+if B > A:
+   A+=C
+else:
+   B += C
+if B > A:
+   A += D
+else:
+   B += D
+print("S" if B > A else "N")
