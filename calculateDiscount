@@ -1,0 +1,5 @@
+amt=int(input("Enter the purchase amount:"))
+if(amt>=5000):
+   print("Final price:",amt-(0.2*amt))
+elif(amt>=3000):
+   print("Final price:",amt-(0.1*amt))
