@@ -1,0 +1,5 @@
+n=input("Enter a number:")
+sum=0
+for i in range(len(n)):
+   sum=sum+int(n[i])
+print("The sum of digits is:",sum)
