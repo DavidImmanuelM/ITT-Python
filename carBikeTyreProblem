@@ -1,0 +1,2 @@
+tyres=int(input("Enter the no. of tyres: "))
+print("YES") if tyres%4==2 else print("NO")
